@@ -33,15 +33,15 @@ const Header = () => {
             
             
             <Tab LinkComponent={NavLink} to="/cusfoods" label="Foods" />
-<<<<<<< HEAD
+{/* <<<<<<< HEAD */}
              <Tab LinkComponent={NavLink} to="/about" label="About Us" />
              <Tab LinkComponent={NavLink} to="/dilivarys" label="Delivarys" />
              <Tab LinkComponent={NavLink} to="/adddilivary" label=" ADD Delivary" />
              <Tab LinkComponent={NavLink} to="/about" label="About Us" />
              
-=======
+{/* ======= */}
             <Tab LinkComponent={NavLink} to="/about" label="About Us" />
->>>>>>> 23f9b6ce5b89e786ea1380baf4bf9f0a31dc54fa
+{/* >>>>>>> 23f9b6ce5b89e786ea1380baf4bf9f0a31dc54fa */}
 
           </Tabs>
         </Toolbar>

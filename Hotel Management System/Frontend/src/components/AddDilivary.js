@@ -46,11 +46,11 @@ import {
     const handleSubmit = (e) => {
       e.preventDefault();
       console.log(inputs, checked);
-<<<<<<< HEAD
+// <<<<<<< HEAD
       sendRequest().then(() => history("/success"));
-=======
+// =======
       sendRequest().then(() => history("/dilivarys"));
->>>>>>> 2e6f8ecc60467b25114fa308c6c58b727076932f
+// >>>>>>> 2e6f8ecc60467b25114fa308c6c58b727076932f
     };
   
     return (

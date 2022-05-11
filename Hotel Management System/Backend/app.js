@@ -3,13 +3,13 @@ const mongoose = require("mongoose");
 const router = require("./routes/salary-routes");
 const routerf = require("./routes/food-routes");
 const routerr = require("./routes/customer-routes");
-<<<<<<< HEAD
+// <<<<<<< HEAD
 const routerrr = require("./routes/room-routes");
 const routerd = require("./routes/dilivary-routes");
-=======
-const routerd = require("./routes/dilivary-routes");
+// =======
+// const routerd = require("./routes/dilivary-routes");
 
->>>>>>> 2e6f8ecc60467b25114fa308c6c58b727076932f
+// >>>>>>> 2e6f8ecc60467b25114fa308c6c58b727076932f
 const cors = require("cors");
 const app = express();
 
@@ -19,14 +19,14 @@ app.use(cors());
 app.use("/salarys", router);
 app.use("/foods", routerf);
 app.use("/customers", routerr);
-<<<<<<< HEAD
+// <<<<<<< HEAD
 app.use("/rooms", routerrr); 
 app.use("/dilivarys", routerd);
-=======
+// =======
 app.use("/dilivarys", routerd);
 
 // localhost:5000/customers
->>>>>>> 2e6f8ecc60467b25114fa308c6c58b727076932f
+// >>>>>>> 2e6f8ecc60467b25114fa308c6c58b727076932f
 // localhost:5000/salarys
 
 mongoose

@@ -33,9 +33,9 @@ import Rooms from "./components/Room/Rooms";
 import Cusrooms from "./components/Room/Cusrooms";
 import RoomDetail from "./components/Room/RoomDetail";
 
-import AddDilivary from "./components/AddDilivary";
-import Dilivarys from "./components/Dilivary/Dilivarys";
-import DilivaryDetail from "./components/Dilivary/DilivaryDetail";
+// import AddDilivary from "./components/AddDilivary";
+// import Dilivarys from "./components/Dilivary/Dilivarys";
+// import DilivaryDetail from "./components/Dilivary/DilivaryDetail";
 
 
 
@@ -54,16 +54,16 @@ function App() {
           <Route path="/salarys" element={<Salary />} exact />
           <Route path="/about" element={<About />} exact />
           <Route path="/salarys/:id" element={<SalaryDetail />} exact />
-<<<<<<< HEAD
+{/* <<<<<<< HEAD */}
           
-=======
+{/* ======= */}
           <Route path="/calculate" element={<SalaryCalculate />} exact />
           <Route path="/allcalculate" element={<EditSalaryCalculate />} exact />
-<<<<<<< HEAD
+{/* <<<<<<< HEAD */}
           
 =======
->>>>>>> 23f9b6ce5b89e786ea1380baf4bf9f0a31dc54fa
->>>>>>> 2e6f8ecc60467b25114fa308c6c58b727076932f
+{/* >>>>>>> 23f9b6ce5b89e786ea1380baf4bf9f0a31dc54fa
+>>>>>>> 2e6f8ecc60467b25114fa308c6c58b727076932f */}
 
           <Route path="/addf" element={<AddFood />} exact />
           <Route path="/foods" element={<Foods />} exact />
