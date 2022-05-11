@@ -1,0 +1,70 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+li {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  max-width: 250px;
+  max-height: 500px;
+  list-style-type: none;
+  justify-content: flex-start;
+}
+
+.card {
+  margin: auto;
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  box-shadow: 5px 5px 10px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-start;
+  align-content: flex-start; */
+}
+.card > img {
+  width: 100%;
+  height: 50%;
+}
+.card article {
+  padding: 5px;
+}
+.card h3 {
+  padding: 4px;
+}
+
+.card p {
+  padding: 3x;
+}
+.field-group {
+  margin: 20px;
+  padding: 0 10px 10px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  box-shadow: 0 2px 0px #C5C3C3;
+  padding-top: 10px;
+  background-color: white;
+}
+
+.avenirnext-demi-normal-gravel-15px {
+  color: var(--gravel);
+  font-family: var(--font-family-avenirnext-demibold);
+  font-size: 20px;
+  font-weight: 700;
+}
+.avenirnext-demi-normal-gravel-small {
+  color: #4a494aba;
+  font-family: var(--font-family-avenirnext-demibold);
+  font-size: small;
+}
+.avenirnext-demi-normal-gravel-18px {
+  color: var(--gravel);
+  font-family: var(--font-family-avenirnext-demibold);
+  font-size: 30px;
+  font-weight: 700;
+}
